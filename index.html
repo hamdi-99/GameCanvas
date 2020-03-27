@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BouncingBall</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="container" >
+    <div class="c1"  onmousemove="move(event)" onmouseout="resetb()">
+        <canvas id="gameCanvas" width="700px" height="500px"></canvas>
+    </div>
+    <button onclick="playGame()"><h3>Play</h3></button>
+    <div ><h1>Score : <span id="score">0</span></h1></div>
+    <h2 style="text-align: center">Move the Yellow Block trying to eat the fruits (green). Be careful of the red dots !</h2>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
